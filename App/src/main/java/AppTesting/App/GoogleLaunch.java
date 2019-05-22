@@ -25,7 +25,7 @@ public class GoogleLaunch {
 		driver.findElement(By.xpath("//a[@title='Get Selenium']")).click();
 		driver.findElement(By.xpath("//a[contains(text(),'About Selenium')]")).click();
 		
-		driver.close();
+		//driver.close();
 
 	}
 
